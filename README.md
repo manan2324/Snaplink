@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SnapLink - URL Shortener
 
-## Getting Started
+A modern, fast URL shortening service built with Next.js. Create short, memorable links in seconds without registration.
 
-First, run the development server:
+## ✨ Features
+
+- 🚀 **Lightning Fast** - Generate shortened URLs instantly
+- 🔒 **No Registration** - Start shortening URLs immediately
+- 📱 **Fully Responsive** - Works on desktop, tablet, and mobile
+- ♾️ **Unlimited URLs** - No restrictions on shortened URLs
+- 🎨 **Modern UI** - Clean interface with smooth animations
+- 🔄 **Custom Short URLs** - Choose your own short URL text
+
+## 🛠️ Tech Stack
+
+- Next.js 15 (App Router)
+- Tailwind CSS
+- MongoDB
+- JavaScript (React)
+
+## 🚀 Quick Start
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Configure environment variables
+
+Create `.env.local`:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+NEXT_PUBLIC_HOST=http://localhost:3000
+```
+
+### 3. Setup MongoDB
+
+Create a database named `snaplink` with a collection `url`:
+
+```json
+{
+  "url": "https://example.com/very-long-url",
+  "shortUrl": "abc123"
+}
+```
+
+### 4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── [url]/           # URL redirection
+├── about/           # About page
+├── api/generate/    # API endpoint
+├── contact/         # Contact page
+├── shorten/         # URL shortening page
+└── page.js          # Home page
+components/
+└── Navbar.js        # Navigation
+lib/
+└── mongodb.js       # Database connection
+```
 
-## Learn More
+## 🎯 Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. Go to the "Shorten" page
+2. Enter your long URL
+3. Enter your preferred short code
+4. Click "Generate"
+5. Share your shortened URL!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### POST `/api/generate`
 
-## Deploy on Vercel
+```json
+{
+  "url": "https://example.com/long-url",
+  "shortUrl": "custom-code"
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deploy on Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+1. Push code to GitHub
+2. Import to Vercel
+3. Add environment variables
+4. Deploy!
+
+## 📄 License
+
+MIT License
+
+---
+
+Built with ❤️ using Next.js
