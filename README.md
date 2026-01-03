@@ -52,8 +52,6 @@ Create a database named `snaplink` with a collection `url`:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
-
 ## 📁 Project Structure
 
 ```
