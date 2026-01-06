@@ -38,7 +38,7 @@ export default function Contact() {
               <div className="bg-purple-50 p-4 sm:p-6 rounded-lg">
                 <h3 className="text-lg sm:text-xl font-bold text-purple-600 mb-2 sm:mb-3">GitHub</h3>
                 <p className="text-gray-700">
-                  <a href="https://github.com/yourusername/snaplink" className="text-purple-500 hover:underline">
+                  <a href="https://github.com/manan2324/Snaplink" className="text-purple-500 hover:underline">
                     github.com/snaplink
                   </a>
                 </p>
