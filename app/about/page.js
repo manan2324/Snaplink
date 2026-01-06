@@ -20,7 +20,7 @@ export default function About() {
             <h2 className="text-xl sm:text-2xl font-bold text-purple-600 mb-3 sm:mb-4">Our Mission</h2>
             <p className="text-gray-700 mb-4">
               SnapLink is dedicated to providing the simplest and most efficient URL shortening service available. 
-              We believe that sharing links should be effortless, which is why we've eliminated unnecessary barriers 
+              We believe that sharing links should be effortless, which is why we&apos;ve eliminated unnecessary barriers 
               like registration and login requirements.
             </p>
             <p className="text-gray-700">
@@ -63,7 +63,7 @@ export default function About() {
               </div>
               <div>
                 <h3 className="font-bold text-base sm:text-lg mb-2">2. Generate Short Link</h3>
-                <p>Click the button and we'll instantly create a short, shareable link for you.</p>
+                <p>Click the button and we&apos;ll instantly create a short, shareable link for you.</p>
               </div>
               <div>
                 <h3 className="font-bold text-base sm:text-lg mb-2">3. Share Anywhere</h3>

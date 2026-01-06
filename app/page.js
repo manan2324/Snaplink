@@ -17,7 +17,7 @@ export default function Home() {
           <p className={`font-bold text-2xl sm:text-3xl lg:text-3xl ${poppins.className}`}>The best URL shortener in the Market</p>
           <p className="px-4 sm:px-10 text-sm sm:text-base">
             We are the most straightforward URL shortener in the world. Our service is free to use and
-            you can shorten as many URLs as you want. We don't use login or registration. Just paste your
+            you can shorten as many URLs as you want. We don&apos;t use login or registration. Just paste your
             URL and get a shortened link.
           </p>
           <div className='flex flex-col sm:flex-row justify-center items-center gap-3 text-white w-full sm:w-auto'>

@@ -18,7 +18,7 @@ export default function Contact() {
 
           <div className="bg-white rounded-lg shadow-lg p-4 sm:p-8 mb-6 sm:mb-8">
             <p className="text-gray-700 text-center mb-6 sm:mb-8 text-sm sm:text-base">
-              Have questions, suggestions, or feedback? We'd love to hear from you! 
+              Have questions, suggestions, or feedback? We&apos;d love to hear from you! 
               Get in touch with us through any of the following channels.
             </p>
 
@@ -111,7 +111,7 @@ export default function Contact() {
                     id="message"
                     rows="5"
                     className="w-full px-3 sm:px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm sm:text-base"
-                    placeholder="Tell us what's on your mind..."
+                    placeholder="Tell us what&apos;s on your mind..."
                   ></textarea>
                 </div>
                 <button
